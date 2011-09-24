@@ -3736,3 +3736,10 @@ gst_decode_bin_plugin_init (GstPlugin * plugin)
   return gst_element_register (plugin, "decodebin2", GST_RANK_NONE,
       GST_TYPE_DECODE_BIN);
 }
+
+GST_PLUGIN_DEFINE (GST_VERSION_MAJOR,
+    GST_VERSION_MINOR,
+    "decodebin2",
+    "decoder bin",
+	gst_decode_bin_plugin_init, VERSION, GST_LICENSE, GST_PACKAGE_NAME,
+    GST_PACKAGE_ORIGIN)
