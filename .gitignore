@@ -47,5 +47,5 @@ gst-libs/gst/pbutils/gstpluginsbaseversion.h
 gst-libs/gst/tag/mklangtables
 
 tmp-orc.c
-gst*orc.h
+gst*orc.[c,h]
 tests/check/orc
