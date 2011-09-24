@@ -1838,6 +1838,7 @@ const GstOggMap mappers[] = {
     NULL,
     extract_tags_vorbis
   },
+#ifndef OPERA_MINIMAL_GST
   {
     "Speex", 5, 80,
     "audio/x-speex",
@@ -2017,6 +2018,7 @@ const GstOggMap mappers[] = {
     NULL,
     extract_tags_ogm
   }
+#endif /* OPERA_MINIMAL_GST */
 };
 /* *INDENT-ON* */
 
